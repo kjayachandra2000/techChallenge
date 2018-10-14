@@ -1,0 +1,5 @@
+allure-results
+output-folder
+.idea
+target
+*.iml
