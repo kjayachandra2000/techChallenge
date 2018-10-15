@@ -106,11 +106,11 @@ Examples:
     }
 ```
 
-### Screen Classes
+### Page Classes
 
-A Screen Class/Object is an object-oriented class that serves as an representation of a screen in your application. The test steps then use the methods of these screen classes whenever they need to interact with the UI of that screen. The benefit is that if the UI changes, the tests themselves don’t need to change, only the code within the Screen Class. Subsequently all changes to support the new UI are located in one place.
+A Page Class/Object is an object-oriented class that serves as an representation of a page in your application. The test steps then use the methods of these page classes whenever they need to interact with the UI of that screen. The benefit is that if the UI changes, the tests themselves don’t need to change, only the code within the Page Class. Subsequently all changes to support the new UI are located in one place.
 
-Screen classes should only do these things:
+Page classes should only do these things:
 - Store element locators
 - Actions (No output)
 - Queries (With answers)
